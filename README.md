@@ -51,3 +51,27 @@ python3 frequency_plot.py
 python3 combine.py
 python3 generate_led_report.py
 
+🔍 What This Project Does
+This project analyzes the blinking behavior and emission spectrum of visible LEDs (Red, Green, Blue, Yellow) using just a phone-recorded video and powerful signal processing tools in Python. It automates:
+Brightness extraction frame-by-frame from LED videos.
+Blink detection using adaptive thresholding.
+Blink frequency analysis using Short-Time Fourier Transform (STFT).
+Theoretical vs Real spectrum comparison via online datasets.
+Visualization of brightness curves, blink timelines, and STFT spectrograms.
+Data export as .csv for deeper analysis or reuse.
+Report generation with graphs, tables, and insights — in one click.
+
+⚙️ How It Works
+Video Analysis: Each LED video is processed to extract brightness intensity.
+Blink Detection: Changes in brightness are used to detect and timestamp each blink.
+STFT Frequency Plot: Time-frequency spectrograms show blink frequency patterns.
+Spectrum Comparison: Real-world LED brightness is compared to theoretical data.
+PDF Report: All visuals and insights are compiled into a beautiful auto-generated report.
+
+🧠 Why It’s Unique
+No complex hardware: just LEDs + a smartphone.
+Fully automated pipeline: from video to insights.
+Combines time-domain, frequency-domain, and spectral analysis.
+Enables science fair demos, academic submissions, and personal exploration.
+Built modularly: easily extendable with Arduino, web dashboards, or AI.
+
